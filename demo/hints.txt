@@ -1,0 +1,27 @@
+# Demos
+
+
+## Video solution
+
+The video contains a video recording of the solution, which is based on
+completing the main.js file provided you. All required functionality
+(search, loading, next/prev page, and displaying the books) is demoed
+for you.
+
+
+## ZIP demo solution
+
+This .zip file contains a "compiled" demo version of this. You can use
+it for an interactive reference, as you work on your own version.
+However, the "video" version should be the first one you study for
+behavior!
+
+DO NOT use any of the code in the compiled demo version -- it is not
+meant to be used, or even studied!  The code itself is useless to you
+for several reasons: 1) it's compiled, so it's a huge mess and you can't
+read it easily, 2) it's solved using a framework, so the solution
+approach is useless to you, and 3) it's not 100% identical compared to
+the solution in the video, which is the one you should seek first to
+emulate (e.g.  note the lack of "Publisher(s)" in the video, slight api
+tweak, etc).
+
