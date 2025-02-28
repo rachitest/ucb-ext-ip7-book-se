@@ -14,7 +14,7 @@ the books retrieved.
 */
 function doFetch() {
     const offset = page * PAGE_SIZE;
-    const url = `http://openlibrary.org/search.json?q=${query}&limit=${PAGE_SIZE}&offset=${offset}`;
+    const url = `https://openlibrary.org/search.json?q=${query}&limit=${PAGE_SIZE}&offset=${offset}`;
     console.log('making query to ', url);
     isLoading = true;
     render();
@@ -73,7 +73,7 @@ function render() {
 
             let coverUrl = "https://via.placeholder.com/150"; // Default placeholder
             if (book.cover_i) {
-                coverUrl = `http://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`;
+                coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`;
             }
 
             const imgElement = document.createElement('img');
